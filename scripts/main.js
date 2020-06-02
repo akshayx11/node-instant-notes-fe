@@ -1,6 +1,6 @@
 $(document).ready(async () => {
     let textContents = ``;
-    let dataUrl = "https://node-insta-notes.herokuapp.com/";
+    let dataUrl = "https://node-insta-notes.herokuapp.com";
     $.get(dataUrl).done(( data ) => {
       const keys = Object.keys(data);
       console.log("KEYS");
