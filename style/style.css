@@ -1,0 +1,57 @@
+body {
+    background: gold;
+}
+#root-container{
+    max-width: 500px;
+    margin: auto;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+#content-list {
+  font-family: courier;
+  font-size: 20px;
+}
+
+#content-list ol {
+    list-style: none;
+    margin-left: -40px;
+    width: 100%;
+    
+}
+#content-list ol li {
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 7px 8px;
+    margin: 1px 1px;
+    background-color: darkslategrey;
+    color: white;
+    min-height: 20px;
+    max-height: 200px;
+    overflow: auto;
+    
+}
+
+#newText {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px 10px 0px 0px;
+    margin-right: -15px;
+    display: block;
+}
+
+#submit{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.deleteContent{
+    display:inline-block;
+    float:right;
+    background: red;
+    border: 1px maroon solid;
+    border-radius: 40px;
+    padding: 2px 7px;
+}
